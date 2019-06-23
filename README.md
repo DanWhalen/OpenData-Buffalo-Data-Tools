@@ -15,7 +15,8 @@ This set up is sufficient for researching specific datasets, one-by-one.  Howeve
 I have developed these Python scripts (ODB Data Dictionary.py and ODB Data Map.py) to read the datasets' landing pages, and make simplified documentation files for them.  This makes exploring Open Data Buffalo quick and clear.
 
 # How To Use
-[ODB Data Dictionary.py]
+## ODB Data Dictionary.py
+
 User enters any number of URLs (each corresponding to a different Open Data Buffalo dataset the user is interested in) into a Python list.  The list is called 'target_urls', and it appears at the very start of the ODB Data Dictionary.py script.  Then the user runs ODB Data Dictionary.py.
 
 ODB Data Dictionary.py outputs a series of html files, one for each URL the user entered into the 'target_urls' list.  Each of the html files contains a clean and simple data dictionary document corresponding one of the datasets.  
@@ -24,7 +25,8 @@ It also creates one large html file called "MASTER.html", which compiles those d
 
 This provides the user with files which are ctrl+f searchable, formatted for easy printing, centralized, and devoid of extraneous information, media or formatting.  These documents make it easy for users to familiarize themselves with what data is available through Open Data Buffalo, and how it can and should be used.
 
-[ODB Data Map.py]
+## ODB Data Map.py
+
 User enters any number of URLs (each corresponding to a different Open Data Buffalo dataset the user is interested in) into a Python list.  The list is called 'target_urls', and it appears at the very start of the ODB Data Dictionary.py script.  Then the user runs ODB Data Map.py.
 
 ODB Data Map.py outputs a .csv file.  Each row represents a data field name, and each column represents a dataset from the list the user provided.  A '1' at the intersection of a data field name (row) and a dataset name (column) indicates the data field appears in that dataset.
